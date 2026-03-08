@@ -1,7 +1,7 @@
 ---
 title: "SOCI 4186"
-subtitle: "Tarea de Proyecto de Investigación — №2  \nReformulación de pregunta y Bibliografía anotada  \nIndividual / Nombre del grupo"
-author: "Pon tu nombre aquí  \nNúmero de estudiante"
+subtitle: "Tarea de Proyecto de Investigación — №2  \nReformulación de pregunta y Bibliografía anotada  \nIndividual"
+author: "Tanairy Alvelo Colón  \n801-23-3467"
 date: today
 date-format: long
 lang: es
@@ -17,62 +17,70 @@ format:
     citecolor: blue
     urlcolor: blue
 bibliography: Referencias.bib
-csl: apa-clacso.csl
+csl: apa-clacso.csl 
 ---
 
 **Fecha límite de entrega: domingo, 8 de marzo de 2026, a las 23:59.**
 
 **Entrega doble:**
 
-- **GitHub Classroom**: commit y push del repositorio (QMD + archivos fuente).
-- **Microsoft Teams**: subir el **HTML renderizado** a la asignación correspondiente en Teams. Si prefieren subir un PDF, pueden generar uno desde el navegador: abran el HTML, Ctrl+P (o Cmd+P en Mac) → «Guardar como PDF».
+-   **GitHub Classroom**: commit y push del repositorio (QMD + archivos fuente).
+-   **Microsoft Teams**: subir el **HTML renderizado** a la asignación correspondiente en Teams. Si prefieren subir un PDF, pueden generar uno desde el navegador: abran el HTML, Ctrl+P (o Cmd+P en Mac) → «Guardar como PDF».
 
----
+------------------------------------------------------------------------
 
 ## Instrucciones generales
 
-1. Aceptarán la asignación en GitHub Classroom y clonarán el repositorio correspondiente. Trabajarán el documento en **Quarto** desde RStudio.
+1.  Aceptarán la asignación en GitHub Classroom y clonarán el repositorio correspondiente. Trabajarán el documento en **Quarto** desde RStudio.
 
-2. Si el trabajo fuere individual, dejen sólo "Individual" en el subtítulo; si fuere grupal, cambien el texto de plantilla por el nombre del grupo.
+2.  Si el trabajo fuere individual, dejen sólo "Individual" en el subtítulo; si fuere grupal, cambien el texto de plantilla por el nombre del grupo.
 
-3. Cambien el campo `author:` en el encabezado YAML. Si es individual: su nombre completo y número de estudiante. Si es en grupo, usen el formato:
-   ```yaml
-   author:
-     - name: "Estudiante 1"
-       affiliations: "№ de Estudiante 1"
-     - name: "Estudiante 2"
-       affiliations: "№ de Estudiante 2"
-   ```
+3.  Cambien el campo `author:` en el encabezado YAML. Si es individual: su nombre completo y número de estudiante. Si es en grupo, usen el formato:
 
-4. Presten atención a la ortografía y sintaxis española (acentos, tildes, diéresis) o escriban en una de las tres modalidades de inglés discutidas: británico, Oxford o estadounidense. Cíñanse a una lengua a través de todo el documento.
+    ``` yaml
+    author:
+      - name: "Estudiante 1"
+        affiliations: "№ de Estudiante 1"
+      - name: "Estudiante 2"
+        affiliations: "№ de Estudiante 2"
+    ```
 
-5. Renderizarán el documento en Quarto (Ctrl+Shift+K o botón Render) para generar el HTML. Harán commit y push al repositorio de GitHub Classroom, y además subirán el **HTML renderizado** a la asignación en Microsoft Teams. Si prefieren entregar un PDF, pueden generarlo desde el navegador: abran el HTML, Ctrl+P (o Cmd+P en Mac) → «Guardar como PDF».
+4.  Presten atención a la ortografía y sintaxis española (acentos, tildes, diéresis) o escriban en una de las tres modalidades de inglés discutidas: británico, Oxford o estadounidense. Cíñanse a una lengua a través de todo el documento.
+
+5.  Renderizarán el documento en Quarto (Ctrl+Shift+K o botón Render) para generar el HTML. Harán commit y push al repositorio de GitHub Classroom, y además subirán el **HTML renderizado** a la asignación en Microsoft Teams. Si prefieren entregar un PDF, pueden generarlo desde el navegador: abran el HTML, Ctrl+P (o Cmd+P en Mac) → «Guardar como PDF».
 
 **Nota sobre colaboración:** Si trabajan en grupo, pueden colaborar con estudiantes de cualquiera de las dos secciones del curso (sección 001 de la mañana o sección 002 de la tarde).
 
----
+------------------------------------------------------------------------
 
 # Formato del documento
 
 El documento debe incluir:
 
-- Reformulación de la pregunta de investigación.
-- Citas y anotaciones de cada fuente. Las fuentes deben ser artículos académicos o libros publicados por editoriales universitarias. No incluya informes de *think tanks*.
+-   Reformulación de la pregunta de investigación.
+-   Citas y anotaciones de cada fuente. Las fuentes deben ser artículos académicos o libros publicados por editoriales universitarias. No incluya informes de *think tanks*.
 
----
+------------------------------------------------------------------------
 
 # Parte 1: Reformulación de la pregunta de investigación
 
 Presente su pregunta de investigación refinada y, en 250–500 palabras, responda a las siguientes preguntas sobre ella:
 
-- ¿Es la pregunta principalmente de tipo inductiva o deductiva?
-- ¿Por qué es interesante e importante? (Revise la presentación *Repaso diseño en Ciencias Sociales*, disponible en Teams, para recordar cómo argumentar la relevancia).
-- ¿Cómo aborda su pregunta una brecha en la literatura relevante?
-- ¿Cuáles son las implicaciones de responderla? (¿Qué aprenderemos de su investigación?).
+-   ¿Es la pregunta principalmente de tipo inductiva o deductiva?
+-   ¿Por qué es interesante e importante? (Revise la presentación *Repaso diseño en Ciencias Sociales*, disponible en Teams, para recordar cómo argumentar la relevancia).
+-   ¿Cómo aborda su pregunta una brecha en la literatura relevante?
+-   ¿Cuáles son las implicaciones de responderla? (¿Qué aprenderemos de su investigación?).
 
-[Escriba aquí su reformulación de la pregunta de investigación...]
+¿Cómo se caracteriza actualmente la delincuencia juvenil en Puerto Rico?
+  
+La pregunta que escogí tiene un enfoque más inductivo. Preguntas así buscan analizar información empírica, como estadísticas, estudios recientes e informes gubernamentales. El enfoque inductivo permite evaluar los datos disponibles sobre la delincuencia juvenil y, basado en ellos, entender cómo se manifiesta actualmente en Puerto Rico. Esta pregunta es muy importante porque la delincuencia juvenil es un problema que afecta a la sociedad. Además, estudiar este fenómeno ayuda a entender los problemas que enfrentan los jóvenes en su vida y que los pueden llevar por el mal camino; también se pueden mejorar programas de prevención.
 
----
+ Una posible brecha en la literatura puede ser la falta de actualización de información. Con información más actualizada se pueden hacer comparaciones para ver cómo ha cambiado la delincuencia juvenil en los últimos años. Por otro lado, analizar la situación actual permite identificar qué tipos de delitos juveniles se siguen repitiendo o si ciertos delitos han aumentado o disminuido.
+ 
+ Responder esta pregunta tiene varias implicaciones. Nos permitirá comprender mejor cómo se manifiesta la delincuencia juvenil en el contexto actual de Puerto Rico. También puede aportar al desarrollo de futuras investigaciones sobre la delincuencia juvenil. Al contar con información más reciente, otros investigadores podrán realizar un análisis más profundo de diferentes aspectos relacionados con este tema social. De esta manera, el estudio puede ser una buena pieza para continuar expandiendo el conocimiento y sus características en nuestra sociedad puertorriqueña y su realidad social desde una perspectiva académica. 
+
+
+------------------------------------------------------------------------
 
 # Parte 2: Bibliografía anotada
 
@@ -80,50 +88,48 @@ Una vez que haya delimitado su tema, elabore una pequeña bibliografía anotada 
 
 **Requisitos:**
 
-- Las fuentes académicas incluyen artículos en revistas académicas y/o libros publicados por editoriales académicas (normalmente, estos tienen la palabra «Universidad» en su nombre).
-- Las fuentes académicas **NO** incluyen informes de *think tanks*, ya que dichos informes no son revisados por pares; tampoco incluyen artículos de periódicos o revistas no académicas.
-- Sus fuentes para la bibliografía anotada deben ayudarle a desarrollar sus conceptos, medidas y marco teórico/analítico. Estas fuentes **NO** deben ser fuentes de datos.
+-   Las fuentes académicas incluyen artículos en revistas académicas y/o libros publicados por editoriales académicas (normalmente, estos tienen la palabra «Universidad» en su nombre).
+-   Las fuentes académicas **NO** incluyen informes de *think tanks*, ya que dichos informes no son revisados por pares; tampoco incluyen artículos de periódicos o revistas no académicas.
+-   Sus fuentes para la bibliografía anotada deben ayudarle a desarrollar sus conceptos, medidas y marco teórico/analítico. Estas fuentes **NO** deben ser fuentes de datos.
 
 **Para cada fuente incluya:**
 
-1. Una cita en formato APA (use la sintaxis `@clave` de Quarto para citar automáticamente desde su archivo `.bib`).
-2. Un párrafo resumen (tres o cuatro oraciones) por fuente, explicando los puntos principales y cómo esta es útil para su investigación. No copie textos directamente de las fuentes. Las reglas de plagio aplican.
+1.  Una cita en formato APA (use la sintaxis `@clave` de Quarto para citar automáticamente desde su archivo `.bib`).
+2.  Un párrafo resumen (tres o cuatro oraciones) por fuente, explicando los puntos principales y cómo esta es útil para su investigación. No copie textos directamente de las fuentes. Las reglas de plagio aplican.
 
-## Ejemplo de entrada en la bibliografía anotada
-
-::: {.callout-warning}
-## Borre este ejemplo antes de entregar
-
-La siguiente entrada es un **ejemplo ilustrativo**. Debe **eliminarla** de su documento y sustituirla por sus propias fuentes en la sección «Sus fuentes anotadas» más abajo.
-:::
-
-**1.** @hall2009institutional
-
-**Anotación:** En este artículo, Hall y Thelen exploran cómo las instituciones económicas evolucionan en diferentes sistemas de economía de mercado. Analizan los mecanismos de cambio institucional y argumentan que las instituciones no son estáticas, sino que cambian a través de procesos graduales influenciados por actores políticos y económicos. El estudio adopta un enfoque deductivo, desarrollando su marco teórico a partir de conceptos existentes, y utiliza análisis teórico y comparativo para determinar sus hallazgos estudiando casos.
-
----
+------------------------------------------------------------------------
 
 ## Sus fuentes anotadas
 
-[Agregue aquí sus 5-8 fuentes con sus respectivas anotaciones...]
 
-**1.** [Cita de la fuente 1]
+**1.** @deanalisis
 
-**Anotación:** [Su anotación aquí...]
+**Anotación:** Este informe muestra un análisis estadístico sobre la delincuencia juvenil en Puerto Rico basado en datos de agencias gubernamentales como la policía y el sistema de justicia. El documento examina características de menores involucrados en delitos, incluyendo edad, sexo y el tipo de crimen cometido. También analiza factores sociales que pueden influir en el comportamiento delictivo de estos jóvenes. Además, explica que el sistema debe enfocarse más en rehabilitar y desarrollar a los jóvenes, en lugar de castigarlos solamente. Esta fuente me puede ayudar en mi investigación porque presenta datos y estadísticas que ayudan a comprender cómo se caracteriza la delincuencia juvenil en Puerto Rico.
 
-**2.** [Cita de la fuente 2]
+**2.** @duran1962delincuencia
 
-**Anotación:** [Su anotación aquí...]
+**Anotación:** Este artículo analiza la delincuencia juvenil desde una perspectiva social. Examina cómo factores como la familia, la escuela y el entorno social pueden influir en el comportamiento de los jóvenes, y analiza al adolescente en sus distintas etapas comenzando desde los 5 años. Por otro lado, habla sobre la importancia de la prevención y de los programas educativos que ayudan a reducir la delincuencia juvenil. Esta fuente es útil para mi investigación porque ayuda a entender las causas y algunos factores que contribuyen al desarrollo de la delincuencia juvenil en Puerto Rico.
 
-[Continúe con las demás fuentes...]
+**3.** @de1962algunos
 
----
+**Anotación:** Este estudio presenta datos estadísticos sobre la delincuencia juvenil y examina patrones relacionados con menores que cometen delitos. El artículo analiza características de los jóvenes involucrados en actividades delictivas y los tipos de delitos más comunes. Esta fuente puede aportar en mi investigación porque contiene información que me puede ayudar a identificar cómo se manifiesta y se caracteriza la delincuencia juvenil.
+
+**4.** @calder1970algunos
+
+**Anotación:** Este artículo revisa investigaciones realizadas sobre la delincuencia juvenil en Puerto Rico. Explica los principales hallazgos de estudios anteriores y analiza cómo se ha estudiado este fenómeno en Puerto Rico. También el autor insiste en que deberían continuar investigando para desarrollar mejores estrategias de prevención. Esta fuente es útil para mi investigación porque ofrece una visión general del conocimiento actual sobre la delincuencia juvenil en Puerto Rico.
+
+**5.** @mueses2017delincuencia
+
+**Anotación:** Este documento analiza la delincuencia juvenil como un fenómeno social desde un punto de vista criminológico. Analiza diferentes teorías que explican por qué algunos jóvenes participan en actividades delictivas, incluyendo factores económicos y familiares. También aborda posibles estrategias de prevención y rehabilitación para reducir este problema. Esta fuente aporta a mi investigación porque me ayuda a comprender las teorías y factores que explican el comportamiento delictivo juvenil.
+
+
+------------------------------------------------------------------------
 
 # Declaración de uso de MEL {.unnumbered}
 
-[Si utilizó herramientas de Modelos Extensos de Lenguaje (MEL/LLM), complete esta sección según las instrucciones del sílabo. De lo contrario, indique "No se utilizaron herramientas de MEL en esta tarea."]
+"Si utilice herramientas de Mel como Chatgpt para ayudarme a corregir la ortografía en mis redacciones."
 
----
+------------------------------------------------------------------------
 
 # Referencias {.unnumbered}
 
